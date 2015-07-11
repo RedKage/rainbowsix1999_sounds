@@ -1,0 +1,423 @@
+<!--
+Channels (affected by their respective volume category)
+"music"
+"game"
+"ambiental"
+
+If preload="true", the sound will be loaded the first time a map is loaded, the others are loaded only when needed.
+
+Categories (needed for various in-game stuff)
+"radioVoice" - to show the radio waves
+
+-->
+<Root>
+<!-- Musics -->
+    <!-- Title -->
+    <Sound ID="SFX_MUSIC_MAIN_MENU1" Path="music/TRACK38.wav" channel="music"/>
+    <Sound ID="SFX_MUSIC_MAIN_MENU2" Path="music/eaglewatch-AudioTrack08.wav" channel="music"/>
+    <Sound ID="SFX_MUSIC_MAIN_MENU3" Path="music/eaglewatch-AudioTrack10.wav" channel="music"/>
+    <!-- Extra title musics (no game support) -->   <!--
+	<Sound ID="SFX_MUSIC_MAIN_MENU1" Path="music/eaglewatch-AudioTrack12.wav" channel="music"/>
+    <Sound ID="SFX_MUSIC_MAIN_MENU2" Path="music/Athena-01.wav" channel="music"/>
+    <Sound ID="SFX_MUSIC_MAIN_MENU3" Path="music/ReadyRoom.wav" channel="music"/>
+    <Sound ID="SFX_MUSIC_MAIN_MENU4" Path="music/Nodeball Explorer.wav" channel="music"/>
+    -->
+
+    <!-- Ingame -->
+    <Sound ID="SFX_MUSIC_LEVEL_THEME1" Path="music/eaglewatch-AudioTrack07.wav" channel="music"/>
+    <Sound ID="SFX_MUSIC_LEVEL_THEME2" Path="music/eaglewatch-AudioTrack08.wav" channel="music"/>
+    <Sound ID="SFX_MUSIC_LEVEL_THEME3" Path="music/eaglewatch-AudioTrack10.wav" channel="music"/>
+    <Sound ID="SFX_MUSIC_LEVEL_THEME4" Path="music/eaglewatch-AudioTrack09.wav" channel="music"/>
+    <Sound ID="SFX_MUSIC_LEVEL_THEME5" Path="music/eaglewatch-AudioTrack11.wav" channel="music"/>
+    <Sound ID="SFX_MUSIC_LEVEL_THEME6" Path="music/eaglewatch-AudioTrack12.wav" channel="music"/>
+    <Sound ID="SFX_MUSIC_LEVEL_THEME7" Path="music/eaglewatch-AudioTrack13.wav" channel="music"/>
+    <Sound ID="SFX_MUSIC_LEVEL_THEME8" Path="music/eaglewatch-AudioTrack16.wav" channel="music"/>
+    <Sound ID="SFX_MUSIC_LEVEL_THEME9" Path="music/TRACK38.wav" channel="music"/>
+    <!-- Extra ingame ambiance short musics (no game support) -->   <!--
+    <Sound ID="SFX_MUSIC_LEVEL_THEME8" Path="music/track11.wav" channel="music"/>
+    <Sound ID="SFX_MUSIC_LEVEL_THEME9" Path="music/track12.wav" channel="music"/>
+    <Sound ID="SFX_MUSIC_LEVEL_THEME10" Path="music/track13.wav" channel="music"/>
+    <Sound ID="SFX_MUSIC_LEVEL_THEME11" Path="music/track14.wav" channel="music"/>
+    <Sound ID="SFX_MUSIC_LEVEL_THEME12" Path="music/track15.wav" channel="music"/>
+    <Sound ID="SFX_MUSIC_LEVEL_THEME13" Path="music/track16.wav" channel="music"/>
+    <Sound ID="SFX_MUSIC_LEVEL_THEME14" Path="music/track17.wav" channel="music"/>
+    <Sound ID="SFX_MUSIC_LEVEL_THEME15" Path="music/track18.wav" channel="music"/>
+    <Sound ID="SFX_MUSIC_LEVEL_THEME16" Path="music/track19.wav" channel="music"/>
+    <Sound ID="SFX_MUSIC_LEVEL_THEME17" Path="music/track20.wav" channel="music"/>
+    <Sound ID="SFX_MUSIC_LEVEL_THEME18" Path="music/TRACK37.wav" channel="music"/>
+    -->
+    
+    <!-- Success -->
+    <Sound ID="SFX_MUSIC_VICJING1" Path="music/eaglewatch-AudioTrack03.wav" channel="music"/>
+    <Sound ID="SFX_MUSIC_VICJING2" Path="music/eaglewatch-AudioTrack05.wav" channel="music"/>
+    
+    <!-- Campaign completed -->
+    <Sound ID="SFX_MUSIC_VICJING_CAMPAIGN" Path="music/eaglewatch-AudioTrack02.wav" channel="game"/>
+    <!-- Extra campaign won musics (no game support) --> <!--
+    <Sound ID="SFX_MUSIC_VICJING3" Path="music/eaglewatch-AudioTrack14.wav" channel="music"/>
+    <Sound ID="SFX_MUSIC_VICJING_CAMPAIGN2" Path="music/eaglewatch-AudioTrack15.wav" channel="game"/>
+    -->
+    
+    <!-- Men down musics (no game support) -->    <!--
+    <Sound ID="SFX_MUSIC_LOSEJING1" Path="music/track31.wav" channel="music"/>
+    <Sound ID="SFX_MUSIC_LOSEJING2" Path="music/track32.wav" channel="music"/>
+    <Sound ID="SFX_MUSIC_LOSEJING3" Path="music/track33.wav" channel="music"/>
+    <Sound ID="SFX_MUSIC_LOSEJING2" Path="music/track35.wav" channel="music"/>
+    -->
+    
+    <!-- Failure -->
+    <Sound ID="SFX_MUSIC_LOSEJING1" Path="music/track34.wav" channel="music"/>
+    <Sound ID="SFX_MUSIC_LOSEJING2" Path="music/eaglewatch-AudioTrack04.wav" channel="music"/>
+    <!-- Extra fail musics (no game support) -->    <!--
+      <Sound ID="SFX_MUSIC_LOSEJING2" Path="music/track35.wav" channel="music"/>
+      <Sound ID="SFX_MUSIC_LOSEJING3" Path="music/track36.wav" channel="music"/>
+    -->
+    
+    <!-- Unlocking -->
+    <Sound ID="SFX_MUSIC_UNLOCK_JINGLE" Path="music/eaglewatch-AudioTrack06.wav" channel="game"/>
+    <Sound ID="SFX_MUSIC_UNLOCK_JINGLE_LOOP" Path="silence.wav" channel="game"/>
+
+<!-- Bad guy n00b -->
+    <!-- Killed -->
+    <Sound ID="SFX_VOICE_BGJUNK_1" Path="voices/BadGuyNoob/F_FL_MH.wav" channel="game" preload="true"/>
+    <Sound ID="SFX_VOICE_BGJUNK_1a" Path="voices/BadGuyNoob/F_FL_MT.wav" channel="game" preload="true"/>
+    <Sound ID="SFX_VOICE_BGJUNK_1b" Path="voices/BadGuyNoob/C_WMTR1.wav" channel="game" preload="true"/>
+    <Sound ID="SFX_VOICE_BGJUNK_1c" Path="voices/BadGuyNoob/C_WMTR2.wav" channel="game" preload="true"/>
+
+    <!-- Time to say goodbye! -->
+    <Sound ID="SFX_VOICE_BGJUNK_2" Path="voices/BadGuyNoob/re_end1.wav" channel="game"/>
+    
+	<!-- Who's therrre?? -->
+	<Sound ID="SFX_VOICE_BGJUNK_4" Path="voices/BadGuyNoob/re_inv2.wav" channel="game"/>
+	
+	<!-- Did cha hear dat?! -->
+    <Sound ID="SFX_VOICE_BGJUNK_5" Path="voices/BadGuyNoob/re_inv1.wav" channel="game"/>
+	
+	<!-- I SURRENDER! --> 
+    <Sound ID="SFX_VOICE_BGJUNK_9" Path="voices/BadGuyNoob/re_sur1.wav" channel="game" category="radioVoice"/>
+	
+	<!-- DON'T SHOOT! -->
+    <Sound ID="SFX_VOICE_BGJUNK_10" Path="voices/BadGuyNoob/re_sur3.wav" channel="game" category="radioVoice"/>
+	
+	<!-- COPS ARE HERREE! -->
+    <Sound ID="SFX_VOICE_BGJUNK_17" Path="voices/BadGuyNoob/re_alrt1.wav" channel="game" preload="true" category="radioVoice"/>
+	
+	<!-- THEY'RE HEREEEE! -->
+    <Sound ID="SFX_VOICE_BGJUNK_18" Path="voices/BadGuyNoob/re_alrt2.wav" channel="game" preload="true" category="radioVoice"/>
+
+<!-- Bad guy expert -->
+    <!-- Killed -->
+    <Sound ID="SFX_VOICE_BGOPER_1" Path="voices/BadGuyExpert/F_FL_MH.wav" channel="game" preload="true"/>
+    <Sound ID="SFX_VOICE_BGOPER_1a" Path="voices/BadGuyExpert/F_FL_MT.wav" channel="game" preload="true"/>
+    <Sound ID="SFX_VOICE_BGOPER_1b" Path="voices/BadGuyExpert/C_WMTR2.wav" channel="game" preload="true"/>
+
+<!-- Troopers -->
+    <!-- Wait here -->
+    <Sound ID="SFX_VOICE_TROOPR_1" Path="voices/MaleTrooper/tm_stay1.wav" channel="game" category="radioVoice"/>
+    <Sound ID="SFX_VOICE_TROOPR_1b" Path="voices/MaleTrooper/tm_stay2.wav" channel="game" category="radioVoice"/>
+    <Sound ID="SFX_VOICE_TROOPR_1c" Path="voices/MaleHostage/tm_stay1.wav" channel="game" category="radioVoice"/>
+    
+    <!-- Hostage is safe -->
+    <Sound ID="SFX_VOICE_TROOPR_2" Path="voices/MaleTrooper/tm_come3.wav" channel="game" category="radioVoice"/>
+    
+    <!-- Hostage is following -->
+    <Sound ID="SFX_VOICE_TROOPR_3" Path="voices/MaleTrooper/tm_come1.wav" channel="game" category="radioVoice"/>
+    <Sound ID="SFX_VOICE_TROOPR_3b" Path="voices/MaleTrooper/tm_come2.wav" channel="game" category="radioVoice"/>
+    <Sound ID="SFX_VOICE_TROOPR_3c" Path="voices/MaleHostage/tm_come1.wav" channel="game" category="radioVoice"/>
+    
+    <!-- Death -->
+    <Sound ID="SFX_VOICE_TROOPR_4" Path="voices/MaleTrooper/tm_gngdn.wav" channel="game" category="radioVoice"/>
+    <Sound ID="SFX_VOICE_TROOPR_4a" Path="voices/MaleTrooper/F_FL_MH.wav" channel="game" category="radioVoice"/>
+    <Sound ID="SFX_VOICE_TROOPR_4b" Path="voices/MaleTrooper/F_FL_MT.wav" channel="game" category="radioVoice"/>
+    <Sound ID="SFX_VOICE_TROOPR_4c" Path="voices/MaleTrooper/C_WMP_FL.wav" channel="game" category="radioVoice"/>
+    <Sound ID="SFX_VOICE_TROOPR_4d" Path="voices/MaleTrooper/C_WMP_PL.wav" channel="game" category="radioVoice"/>
+    <Sound ID="SFX_VOICE_TROOPR_4e" Path="voices/MaleTrooper/C_WMP_VS.wav" channel="game" category="radioVoice"/>
+    <Sound ID="SFX_VOICE_TROOPR_4f" Path="voices/MaleTrooper/C_WMTM1.wav" channel="game" category="radioVoice"/>
+    <Sound ID="SFX_VOICE_TROOPR_4g" Path="voices/MaleTrooper/C_WMTM2.wav" channel="game" category="radioVoice"/>
+
+    <!-- Tango down -->
+    <Sound ID="SFX_VOICE_TROOPR_5" Path="voices/MaleTrooper/tm_tngd1.wav" channel="game" category="radioVoice" preload="true"/>
+    <Sound ID="SFX_VOICE_TROOPR_5b" Path="voices/MaleTrooper/tm_tngd2.wav" channel="game" category="radioVoice" preload="true"/>
+    <Sound ID="SFX_VOICE_TROOPR_5c" Path="voices/MaleTrooper/tm_tngd3.wav" channel="game" category="radioVoice" preload="true"/>
+    <Sound ID="SFX_VOICE_TROOPR_5d" Path="voices/MaleTrooper/tm_tngd1.wav" channel="game" category="radioVoice" preload="true"/>
+    <Sound ID="SFX_VOICE_TROOPR_5e" Path="voices/MaleTrooper/tm_tngd2.wav" channel="game" category="radioVoice" preload="true"/>
+    <Sound ID="SFX_VOICE_TROOPR_5f" Path="voices/MaleTrooper/tm_tngd3.wav" channel="game" category="radioVoice" preload="true"/>
+    <Sound ID="SFX_VOICE_TROOPR_5g" Path="silence.wav" channel="game" category="radioVoice" preload="true"/>
+
+    <!-- Bomb located -->
+    <Sound ID="SFX_VOICE_TROOPR_6" Path="voices/MaleTrooper/tm_bingo.wav" channel="game" category="radioVoice"/>
+    
+    <!-- Bomb defusing -->
+    <Sound ID="SFX_VOICE_TROOPR_7" Path="voices/MaleTrooper/tm_bmdis.wav" channel="game" category="radioVoice"/>
+    
+    <!-- Bomb defused -->
+    <Sound ID="SFX_VOICE_TROOPR_8" Path="voices/MaleTrooper/tm_bmneu.wav" channel="game" category="radioVoice"/>
+    
+    <!-- Aborting -->
+    <Sound ID="SFX_VOICE_TROOPR_9" Path="voices/MaleTrooper/tm_stnby.wav" channel="game" category="radioVoice"/>
+    
+    <!-- Hostage secured -->
+    <Sound ID="SFX_VOICE_TROOPR_10" Path="voices/Commander/na_comp.wav" channel="game"/>
+    
+    <!-- Mission intro / Lock an load -->
+    <Sound ID="SFX_VOICE_TROOPR_11" Path="voices/MaleTrooper/tm_algo.wav" channel="game" category="radioVoice"/>
+    
+    <!-- Affirmative / Okay -->
+    <Sound ID="SFX_VOICE_TROOPR_12" Path="voices/MaleTrooper/tm_ack.wav" channel="game" preload="true"/>
+    <Sound ID="SFX_VOICE_TROOPR_12b" Path="voices/MaleTrooper/tm_chk.wav" channel="game" preload="true"/>
+    <Sound ID="SFX_VOICE_TROOPR_12c" Path="voices/MaleTrooper/tm_roger.wav" channel="game" preload="true"/>
+    <Sound ID="SFX_VOICE_TROOPR_12d" Path="silence.wav" channel="game" preload="true"/>
+
+    <!-- Moving ack / Roger / On it -->
+    <Sound ID="SFX_VOICE_TROOPR_13" Path="voices/MaleTrooper/tm_adv.wav" channel="game" preload="true"/>
+    <Sound ID="SFX_VOICE_TROOPR_13b" Path="voices/MaleTrooper/tm_ack.wav" channel="game" preload="true"/>
+    <Sound ID="SFX_VOICE_TROOPR_13c" Path="voices/MaleTrooper/tm_chk.wav" channel="game" preload="true"/>
+    <Sound ID="SFX_VOICE_TROOPR_13d" Path="voices/MaleTrooper/tm_roger.wav" channel="game" preload="true"/> 
+
+    <!-- Can't do it -->
+    <Sound ID="SFX_VOICE_TROOPR_15" Path="voices/MaleTrooper/tm_stnby.wav" channel="game" category="radioVoice"/>
+    
+    <!-- In position -->
+    <Sound ID="SFX_VOICE_TROOPR_16" Path="voices/MaleTrooper/tm_inpos.wav" channel="game" category="radioVoice"/>
+
+    <!-- Arrived at destination / On target / On yout mark -->
+    <Sound ID="SFX_VOICE_TROOPR_17" Path="voices/MaleTrooper/tm_inpos.wav" channel="game" category="radioVoice"/>
+    <Sound ID="SFX_VOICE_TROOPR_17b" Path="voices/MaleTrooper/tm_tkcv.wav" channel="game" category="radioVoice"/>
+    <Sound ID="SFX_VOICE_TROOPR_17c" Path="silence.wav" channel="game" category="radioVoice"/>
+
+    <!-- Nothing in sight / No contact -->
+    <Sound ID="SFX_VOICE_TROOPR_18" Path="voices/MaleTrooper/tm_notn1.wav" channel="game" category="radioVoice"/>
+    <Sound ID="SFX_VOICE_TROOPR_18b" Path="voices/MaleTrooper/tm_notn2.wav" channel="game" category="radioVoice"/>
+    <Sound ID="SFX_VOICE_TROOPR_18c" Path="voices/MaleTrooper/tm_quiet.wav" channel="game" category="radioVoice"/>
+    
+    <!-- Target in sight -->
+    <Sound ID="SFX_VOICE_TROOPR_20" Path="voices/MaleTrooper/tm_bingo.wav" channel="game" category="radioVoice"/>
+    
+    <!-- Tango in sight -->
+    <Sound ID="SFX_VOICE_TROOPR_21" Path="voices/MaleTrooper/tm_cont.wav" channel="game" category="radioVoice"/>
+    
+    <!-- It's locked -->
+    <Sound ID="SFX_VOICE_TROOPR_24" Path="voices/MaleTrooper/tm_brech.wav" channel="game" category="radioVoice"/>
+    
+    <!-- Door unlocked -->
+    <Sound ID="SFX_VOICE_TROOPR_27" Path="voices/MaleTrooper/tm_rdy.wav" channel="game" category="radioVoice"/>
+    
+    <!-- GET DOWN! -->
+    <Sound ID="SFX_VOICE_TROOPR_28" Path="voices/MaleTrooper/tm_down.wav" channel="game" category="radioVoice"/>
+    
+    <!-- Hostage killed -->
+    <Sound ID="SFX_VOICE_TROOPR_29" Path="voices/MaleTrooper/tm_hstdn.wav" channel="game" category="radioVoice"/>
+    
+    <!-- Wounded / I'm hit -->
+    <Sound ID="SFX_VOICE_TROOPR_30" Path="voices/MaleTrooper/C_WMP_FL.wav" channel="game" category="radioVoice"/>
+    <Sound ID="SFX_VOICE_TROOPR_30a" Path="voices/MaleTrooper/tm_takin.wav" channel="game" category="radioVoice"/>
+    <Sound ID="SFX_VOICE_TROOPR_30b" Path="voices/MaleTrooper/tm_under.wav" channel="game" category="radioVoice"/>
+
+    <!-- Reloading -->
+    <Sound ID="SFX_VOICE_TROOPR_31" Path="voices/MaleTrooper/tm_dry.wav" channel="game" category="radioVoice"/>
+    <Sound ID="SFX_VOICE_TROOPR_31a" Path="voices/MaleTrooper/tm_hldup.wav" channel="game" category="radioVoice"/>
+    <Sound ID="SFX_VOICE_TROOPR_31b" Path="silence.wav" channel="game" category="radioVoice"/>
+    <Sound ID="SFX_VOICE_TROOPR_31c" Path="silence.wav" channel="game" category="radioVoice"/>
+
+    <!-- Flash out -->
+    <Sound ID="SFX_VOICE_TROOPR_32" Path="voices/MaleTrooper/tm_fire.wav" channel="game" category="radioVoice"/>
+
+    <!-- Clear -->
+    <Sound ID="SFX_VOICE_TROOPR_35" Path="voices/MaleTrooper/tm_clr.wav" channel="game" category="radioVoice"/>
+    <Sound ID="SFX_VOICE_TROOPR_35a" Path="voices/MaleTrooper/tm_clrcv.wav" channel="game" category="radioVoice"/>
+    <Sound ID="SFX_VOICE_TROOPR_35b" Path="voices/MaleTrooper/tm_clr.wav" channel="game" category="radioVoice"/>
+    <Sound ID="SFX_VOICE_TROOPR_35c" Path="silence.wav" channel="game" category="radioVoice"/>
+
+    <!-- Man down -->
+    <Sound ID="SFX_VOICE_TROOPR_36" Path="voices/MaleTrooper/tm_mndn1.wav" channel="game" category="radioVoice"/>
+    <Sound ID="SFX_VOICE_TROOPR_36a" Path="voices/MaleTrooper/tm_mndn2.wav" channel="game" category="radioVoice"/>
+    <Sound ID="SFX_VOICE_TROOPR_36b" Path="voices/MaleTrooper/tm_heavy.wav" channel="game" category="radioVoice"/>
+    <Sound ID="SFX_VOICE_TROOPR_36c" Path="voices/MaleTrooper/tm_back1.wav" channel="game" category="radioVoice"/>
+    <Sound ID="SFX_VOICE_TROOPR_36d" Path="voices/MaleTrooper/tm_back2.wav" channel="game" category="radioVoice"/>
+    <Sound ID="SFX_VOICE_TROOPR_36e" Path="voices/MaleTrooper/tm_help.wav" channel="game" category="radioVoice"/>
+    <Sound ID="SFX_VOICE_TROOPR_36f" Path="voices/MaleTrooper/C_WMP_VS.wav" channel="game" category="radioVoice"/>
+
+    <!-- Compromised -->
+    <Sound ID="SFX_VOICE_TROOPR_37" Path="voices/MaleTrooper/tm_eng.wav" channel="game" category="radioVoice"/>
+    
+    <!-- Holding -->
+    <Sound ID="SFX_VOICE_TROOPR_38" Path="voices/MaleTrooper/tm_hldup.wav" channel="game" category="radioVoice"/>
+    
+    <!-- Moving / Released from hold -->
+    <Sound ID="SFX_VOICE_TROOPR_39" Path="voices/MaleTrooper/tm_roger.wav" channel="game" category="radioVoice"/>
+    
+    <!-- Waiting for alpha -->
+    <Sound ID="SFX_VOICE_TROOPR_40a" Path="voices/MaleTrooper/tm_inpos.wav" channel="game" category="radioVoice"/>
+    <Sound ID="SFX_VOICE_TROOPR_40b" Path="voices/MaleTrooper/tm_rdy.wav" channel="game" category="radioVoice"/>
+    <Sound ID="SFX_VOICE_TROOPR_40c" Path="voices/MaleTrooper/tm_stnby.wav" channel="game" category="radioVoice"/>
+
+    <!-- Waiting for bravo -->
+    <Sound ID="SFX_VOICE_TROOPR_41a" Path="voices/MaleTrooper/tm_inpos.wav" channel="game" category="radioVoice"/>
+    <Sound ID="SFX_VOICE_TROOPR_41b" Path="voices/MaleTrooper/tm_rdy.wav" channel="game" category="radioVoice"/>
+    <Sound ID="SFX_VOICE_TROOPR_41c" Path="voices/MaleTrooper/tm_stnby.wav" channel="game" category="radioVoice"/>
+
+    <!-- Waiting for charlie -->
+    <Sound ID="SFX_VOICE_TROOPR_42a" Path="voices/MaleTrooper/tm_inpos.wav" channel="game" category="radioVoice"/>
+    <Sound ID="SFX_VOICE_TROOPR_42b" Path="voices/MaleTrooper/tm_rdy.wav" channel="game" category="radioVoice"/>
+    <Sound ID="SFX_VOICE_TROOPR_42c" Path="voices/MaleTrooper/tm_stnby.wav" channel="game" category="radioVoice"/>
+
+    <!-- Stinger out -->
+    <Sound ID="SFX_VOICE_TROOPR_43" Path="voices/MaleTrooper/tm_fire.wav" channel="game" category="radioVoice"/>
+
+    <!-- Deploying tazer out -->
+    <Sound ID="SFX_VOICE_TROOPR_44" Path="voices/MaleTrooper/tm_eng.wav" channel="game" category="radioVoice"/>
+    
+    <!-- Suspect secured -->
+    <Sound ID="SFX_VOICE_TROOPR_45" Path="voices/MaleTrooper/tm_objcm.wav" channel="game" category="radioVoice"/>
+    
+    <!-- Civilian secured -->
+    <Sound ID="SFX_VOICE_TROOPR_46" Path="voices/MaleTrooper/tm_objcm.wav" channel="game" category="radioVoice"/>
+    
+    <!-- Civilian down -->
+    <Sound ID="SFX_VOICE_TROOPR_47" Path="voices/MaleTrooper/tm_body.wav" channel="game" category="radioVoice"/>
+    
+    <!-- Primary target secured -->
+    <Sound ID="SFX_VOICE_TROOPR_48" Path="voices/Commander/na_comp.wav" channel="game" category="radioVoice"/>
+    
+    <!-- Eyes on the target -->
+    <Sound ID="SFX_VOICE_TROOPR_49" Path="voices/MaleTrooper/tm_eyes.wav" channel="game" category="radioVoice"/>
+
+    <!-- FREEZE! / DON'T MOVE! -->
+    <Sound ID="SFX_VOICE_TROOPR_50a" Path="voices/MaleTrooper/tm_bingo.wav" channel="game" category="radioVoice"/>
+    <Sound ID="SFX_VOICE_TROOPR_50b" Path="voices/MaleTrooper/tm_bingo.wav" channel="game" category="radioVoice"/>
+    <Sound ID="SFX_VOICE_TROOPR_50c" Path="voices/MaleTrooper/tm_bingo.wav" channel="game" category="radioVoice"/>
+
+    <!-- Cuffing suspect / Hands behind yout back -->
+    <Sound ID="SFX_VOICE_TROOPR_51" Path="voices/MaleTrooper/tm_esc2.wav" channel="game" category="radioVoice"/>
+    
+    <!-- Standing by / Waiting for orders -->
+    <Sound ID="SFX_VOICE_TROOPR_55a" Path="voices/MaleTrooper/tm_waito.wav" channel="game" category="radioVoice"/>
+    <Sound ID="SFX_VOICE_TROOPR_55b" Path="voices/MaleTrooper/tm_rdy.wav" channel="game" category="radioVoice"/>
+    <Sound ID="SFX_VOICE_TROOPR_55c" Path="voices/MaleTrooper/tm_inpos.wav" channel="game" category="radioVoice"/>
+    <Sound ID="SFX_VOICE_TROOPR_55d" Path="silence.wav" channel="game" category="radioVoice"/>
+    
+    <!-- Placing charge -->
+    <Sound ID="SFX_VOICE_TROOPR_57" Path="voices/MaleTrooper/tm_chrgp.wav" channel="game" category="radioVoice"/>
+    
+    <!-- Charge ready -->
+    <Sound ID="SFX_VOICE_TROOPR_58a" Path="voices/MaleTrooper/tm_chrgr.wav" channel="game" category="radioVoice"/>
+    <Sound ID="SFX_VOICE_TROOPR_58b" Path="voices/MaleTrooper/tm_rdy.wav" channel="game" category="radioVoice"/>
+    <Sound ID="SFX_VOICE_TROOPR_58c" Path="voices/MaleTrooper/tm_chrgr.wav" channel="game" category="radioVoice"/>
+    
+    <!-- VIP is down -->
+    <Sound ID="SFX_VOICE_TROOPR_59a" Path="voices/MaleTrooper/tm_hstdn.wav" channel="game" category="radioVoice"/>
+    <Sound ID="SFX_VOICE_TROOPR_59b" Path="voices/MaleHostage/hm_inc1.wav" channel="game"/>
+    <Sound ID="SFX_VOICE_TROOPR_59c" Path="voices/MaleHostage/hm_inc2.wav" channel="game"/>
+    
+    <!-- Intel aquired/secured -->
+    <Sound ID="SFX_VOICE_TROOPR_60a" Path="voices/MaleTrooper/tm_objcm.wav" channel="game" category="radioVoice"/>
+    <Sound ID="SFX_VOICE_TROOPR_60c" Path="voices/MaleTrooper/tm_objrc.wav" channel="game" category="radioVoice"/>
+
+    <!-- Evidence aquired/secured / Got da dope -->
+    <Sound ID="SFX_VOICE_TROOPR_61a" Path="voices/MaleTrooper/tm_objcm.wav" channel="game" category="radioVoice"/>
+    <Sound ID="SFX_VOICE_TROOPR_61b" Path="voices/MaleTrooper/tm_objrc.wav" channel="game" category="radioVoice"/>
+    <Sound ID="SFX_VOICE_TROOPR_61c" Path="voices/MaleTrooper/tm_objrc.wav" channel="game" category="radioVoice"/>
+
+    <!-- Trashing evidence / WE NEED TO STOP THEM! -->
+    <Sound ID="SFX_VOICE_TROOPR_62a" Path="silence.wav" channel="game" category="radioVoice"/>
+    <Sound ID="SFX_VOICE_TROOPR_62b" Path="silence.wav" channel="game" category="radioVoice"/>
+    <Sound ID="SFX_VOICE_TROOPR_62c" Path="silence.wav" channel="game" category="radioVoice"/>
+    
+<!-- Commander -->
+    <!-- Alpha go -->
+    <Sound ID="SFX_VOICE_COMNDR_6" Path="voices/FemaleTrooper/tf_go_a.wav" channel="game"/>
+    
+    <!-- Bravo go -->
+    <Sound ID="SFX_VOICE_COMNDR_8" Path="voices/FemaleTrooper/tf_go_b.wav" channel="game"/>
+    
+    <!-- Charlie go -->
+    <Sound ID="SFX_VOICE_COMNDR_10" Path="voices/FemaleTrooper/tf_go_c.wav" channel="game"/>
+    
+	<!-- Delta go -->
+    <Sound ID="SFX_VOICE_COMNDR_12" Path="voices/FemaleTrooper/tf_go_d.wav" channel="game"/>
+	
+    <!-- Take the shot -->
+    <Sound ID="SFX_VOICE_COMNDR_13" Path="voices/Commander/FO_VOICE_COMNDR_13.wav" channel="game"/>
+    
+    <!-- Snipers hold fire -->
+    <Sound ID="SFX_VOICE_COMNDR_14" Path="voices/Commander/FO_VOICE_COMNDR_14.wav" channel="game"/>
+    
+    <!-- Snipers fire at will -->
+    <Sound ID="SFX_VOICE_COMNDR_15" Path="voices/Commander/FO_VOICE_COMNDR_15.wav" channel="game"/>
+    
+    <!-- Good job we done here -->
+    <Sound ID="SFX_VOICE_COMNDR_16" Path="voices/Commander/na_succ.wav" channel="game"/>
+    
+    <!-- Abord mission -->
+    <Sound ID="SFX_VOICE_COMNDR_17" Path="voices/Commander/na_abrt.wav" channel="game"/>
+    
+    <!-- Mission is a FAILURE -->
+    <Sound ID="SFX_VOICE_COMNDR_18" Path="voices/Commander/na_fail.wav" channel="game"/>
+    <Sound ID="SFX_VOICE_COMNDR_18a" Path="voices/Commander/na_fail.wav" channel="game"/>
+
+    <!-- Suspect in custody -->
+    <Sound ID="SFX_VOICE_COMNDR_19" Path="voices/Commander/na_ssec.wav" channel="game"/>
+    
+    <!-- Primary target in custody -->
+    <Sound ID="SFX_VOICE_COMNDR_20" Path="voices/Commander/na_comp.wav" channel="game"/>
+    
+    <!-- VIP is now safe -->
+    <Sound ID="SFX_VOICE_COMNDR_21" Path="voices/Commander/na_comp.wav" channel="game"/>
+    
+    <!-- VIP is now secure -->
+    <Sound ID="SFX_VOICE_COMNDR_22" Path="voices/Commander/na_ssec.wav" channel="game"/>
+
+<!-- VIP -->
+    <!-- Thank you -->
+    <Sound ID="SFX_VOICE_VIP_1a" Path="voices/MaleHostage/hm_esc1.wav" channel="game" category="radioVoice"/>
+    <Sound ID="SFX_VOICE_VIP_1b" Path="voices/MaleHostage/hm_esc2.wav" channel="game" category="radioVoice"/>
+    <Sound ID="SFX_VOICE_VIP_1c" Path="voices/MaleHostage/hm_esc3.wav" channel="game" category="radioVoice"/>
+    
+    <!-- Wounded -->
+    <Sound ID="SFX_VOICE_VIP_2a" Path="voices/MaleHostage/hm_wnd1.wav" channel="game" category="radioVoice"/>
+    <Sound ID="SFX_VOICE_VIP_2b" Path="voices/MaleHostage/hm_wnd2.wav" channel="game" category="radioVoice"/>
+    
+    <!-- Help -->
+    <Sound ID="SFX_VOICE_VIP_4a" Path="voices/MaleHostage/hm_esc2.wav" channel="game" category="radioVoice"/>
+
+<!-- Hostages -->
+    <!-- Wounded -->
+    <Sound ID="SFX_VOICE_HSTGEM_1" Path="voices/MaleHostage/hm_scrm1.wav" channel="game" category="radioVoice"/>
+    <Sound ID="SFX_VOICE_HSTGEM_1a" Path="voices/MaleHostage/hm_scrm2.wav" channel="game" category="radioVoice"/>
+    <Sound ID="SFX_VOICE_HSTGEM_1b" Path="voices/MaleHostage/hm_wnd1.wav" channel="game" category="radioVoice"/>
+    <Sound ID="SFX_VOICE_HSTGEM_1c" Path="voices/MaleHostage/hm_wnd2.wav" channel="game" category="radioVoice"/>
+    
+    <!-- Rescued -->
+    <Sound ID="SFX_VOICE_HSTGEM_5" Path="voices/MaleHostage/hm_esc1.wav" channel="game" category="radioVoice"/>
+
+<!-- Sniper / High ground -->
+    <!-- Tango in sight -->
+    <Sound ID="SFX_VOICE_SNIPER_1" Path="voices/FemaleTrooper/tf_insit.wav" channel="game"/>
+    
+    <!-- Target left view -->
+    <Sound ID="SFX_VOICE_SNIPER_2" Path="voices/FemaleTrooper/tf_quiet.wav" channel="game"/>
+    
+    <!-- Ready to fire -->
+    <Sound ID="SFX_VOICE_SNIPER_3" Path="voices/FemaleTrooper/tf_waito.wav" channel="game"/>
+    
+    <!-- No shot / Can't shot -->
+    <Sound ID="SFX_VOICE_SNIPER_4" Path="voices/FemaleTrooper/tf_notn1.wav" channel="game"/>
+    
+    <!-- Target down -->
+    <Sound ID="SFX_VOICE_SNIPER_6" Path="voices/FemaleTrooper/tf_tngd2.wav" channel="game"/>
+    
+    <!-- Tango down -->
+    <Sound ID="SFX_VOICE_SNIPER_7" Path="voices/FemaleTrooper/tf_tngd1.wav" channel="game"/>
+    <Sound ID="SFX_VOICE_SNIPER_7b" Path="voices/FemaleTrooper/tf_tngd2.wav" channel="game"/>
+    <Sound ID="SFX_VOICE_SNIPER_7c" Path="voices/FemaleTrooper/tf_tngd3.wav" channel="game"/>
+    <Sound ID="SFX_VOICE_SNIPER_7d" Path="voices/FemaleTrooper/tf_tngd1.wav" channel="game"/>
+
+    <!-- Hostage spotted -->
+    <Sound ID="SFX_VOICE_SNIPER_8" Path="voices/FemaleTrooper/tf_bingo.wav" channel="game"/>
+
+<!-- GUI -->
+    <Sound ID="SFX_GUI_CLICK" Path="GUI/I_Action.wav" channel="game" preload="true"/>
+    <Sound ID="SFX_GUI_HOVER" Path="GUI/I_Cat.wav" channel="game" preload="true"/>
+    <Sound ID="SFX_FX_GUI_DISBLD" Path="GUI/I_Error.wav" channel="game"/>
+    <Sound ID="SFX_GUI_PURCHS" Path="GUI/I_Beep.wav" channel="game"/>
+</Root>

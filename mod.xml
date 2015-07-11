@@ -1,0 +1,12 @@
+<!--
+"image" shows up in-game but also in Steam Workshop. Should be a 512x512 or 256x256 PNG image
+"tags" only show up in Steam Workshop. comma-separated values. preferably one of: "Levels,Enemies,Objects,Replays,Weapons,Armor,Gear,Total Conversions,Interface,Sound,Other"
+-->
+<Mod
+	name="Rainbow Six 1999 Soundmod"
+	description="Replaces the default sounds/voices/music with those from the first Rainbow Six from 1999."
+	image="textures/gui/mods/redshadow_sounds_rainbowsix1999.png"
+	author="RedShadow"
+	gameVersion="1.0.0"
+	tags="Sounds,Music"
+/>
